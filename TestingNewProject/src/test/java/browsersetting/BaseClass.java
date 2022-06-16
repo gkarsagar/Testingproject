@@ -6,7 +6,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 
 public class BaseClass  {
 	
-	public static WebDriver openChromeBrowser() {
+	public static WebDriver openChromeBrowser(){
 		
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\sagar\\OneDrive\\Desktop\\automation fol\\chromedriver_win32 (1)\\chromedriver.exe");
 	    WebDriver driver = new ChromeDriver();
